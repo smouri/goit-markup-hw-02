@@ -16,7 +16,8 @@ ul {
   color: #212121;
   text-decoration: none;
 }
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: #2196f3;
   text-decoration: underline;
 }
