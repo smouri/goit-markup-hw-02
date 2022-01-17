@@ -41,3 +41,26 @@ ul {
   color: #2196f3;
   text-decoration: underline;
 }
+/* Главный блок */
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.hero-title {
+  color: #ffffff;
+}
+/* Особенности */
+.section {
+  color: #212121;
+}
+.peculiarities-title {
+  display: none;
+}
+.peculiarities-list .title {
+  color: #212121;
+}
+.peculiarities-list .paragraphly {
+  color: #757575;
+}
