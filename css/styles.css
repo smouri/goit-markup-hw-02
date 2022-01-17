@@ -64,3 +64,22 @@ ul {
 .peculiarities-list .paragraphly {
   color: #757575;
 }
+/* Подвал сайта */
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.footer .logo {
+  color: #ffffff;
+}
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
