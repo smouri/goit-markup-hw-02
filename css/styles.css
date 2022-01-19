@@ -3,9 +3,15 @@
 /* Основной цвет фона #E5E5E5 */
 /* Вторичный цвет фона #2F303A */
 /* Акценты #2196F3 */
-
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+  --accent-color: #2196f3;
+}
 body {
-  color: #212121;
+  color: var(--main-text-color);
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
 }
@@ -14,7 +20,7 @@ ul {
 }
 /* Шапка сайта */
 .logo {
-  color: #212121;
+  color: var(--main-text-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -28,7 +34,7 @@ ul {
   color: #2196f3;
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--main-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -72,13 +78,13 @@ ul {
 }
 /* Особенности */
 .section {
-  color: #212121;
+  color: var(--main-text-color);
 }
 .peculiarities-title {
   display: none;
 }
 .peculiarities-list .title {
-  color: #212121;
+  color: var(--main-text-color);
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
