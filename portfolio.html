@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
@@ -13,11 +12,13 @@
         <!-- Шапка сайта -->
         <header class="header">
             <a class="logo" lang="en" href=""><span class="blue-logo">Web</span>Studio</a>
-            <nav class="site-nav list">
-                <a class="link" href="./index.html">Студия</a>
-                <a class="link" href="./portfolio.html">Портфолио</a>
-                <a class="link" href="">Контакты</a>
-            </nav>
+        <nav class="site-nav list">
+            <ul>
+                <li><a class="link" href="/index.html">Студия</a></li>
+                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="link" href="">Контакты</a></li>
+            </ul>
+        </nav>
             <ul class="contact-list">
                 <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -26,92 +27,92 @@
         <!-- Главный блок -->
         <main>
         <!-- Секция портфолио -->
-            <section>
-                <h1>Портфолио</h1>
-                <ul>
+            <section class="section-portfolio">
+                <h1 class="title">Портфолио</h1>
+                <ul class="button-list">
                     <li><button type="button">Все</button></li>
                     <li><button type="button">Веб-сайты</button></li>
                     <li><button type="button">Приложения</button></li>
                     <li><button type="button">Дизайн</button></li>
                     <li><button type="button">Маркетинг</button></li>
                 </ul>
-                <ul>
+                <ul class="project-list">
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_1.jpg" width="370" height="294" alt="Веб-сайт">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="project-title">Технокряк</h2>
+                    <p class="project">Веб-сайт</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_2.jpg" width="370" height="294" alt="Дизайн">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="project">Дизайн</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_3.jpg" width="370" height="294" alt="Приложение">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
+                    <h2 class="project-title">Ресторан Seafood</h2>
+                    <p class="project">Приложение</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_4.jpg" width="370" height="294" alt="Маркетинг">
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="project-title">Проект Prime</h2>
+                    <p class="project">Маркетинг</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_5.jpg" width="370" height="294" alt="Приложение">
-                    <h2>Проект Boxes</h2>
-                    <p>Приложение</p>
+                    <h2 class="project-title">Проект Boxes</h2>
+                    <p class="project">Приложение</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_6.jpg" width="370" height="294" alt="Веб-сайт">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="project-title">Inspiration has no Borders</h2>
+                    <p class="project">Веб-сайт</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_7.jpg" width="370" height="294" alt="Дизайн">
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <h2 class="project-title">Издание Limited Edition</h2>
+                    <p class="project">Дизайн</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_8.jpg" width="370" height="294" alt="Маркетинг">
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="project-title">Проект LAB</h2>
+                    <p class="project">Маркетинг</p>
                         </a>
                 </li>
                    <li>
                         <a href="">   
                     <img src="./image/portfolio/optimiz/project_9.jpg" width="370" height="294" alt="Приложение">
-                    <h2>Growing Business</h2>
-                    <p>Приложение</p>
+                    <h2 class="project-title">Growing Business</h2>
+                    <p class="project">Приложение</p>
                         </a>
                 </li>
                 </ul> 
             </section>
         </main>
         <!-- Подвал сайта -->
-        <footer class="footer">
-            <a class="logo" lang="en" href=""><span class="blue-logo">Web</span>Studio</a>
-            <address class="address">
-                г. Киев, пр-т Леси Украинки, 26
-            </address>
-            <address class="address-list">
-                <a class="link" href="mailto:info@example.com">info@example.com</a>
-                <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </address>
-        </footer>
+       <footer class="footer">
+           <a class="logo" lang="en" href=""><span class="blue-logo">Web</span>Studio</a>
+           <address class="address-list">
+               <ul>
+                   <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                   <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+                   <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+               </ul>
+           </address>
+       </footer>
 </body>
 </html>
