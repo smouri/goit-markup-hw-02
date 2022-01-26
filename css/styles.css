@@ -25,13 +25,13 @@ ul li a {
   text-decoration: none;
 }
 /* Шапка сайта */
-.header {
-  /* width: 1600px;
+/* .header {
+  width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
-  background: var(--white); */
-}
+  background: var(--white);
+} */
 .logo {
   color: var(--main-text-color);
   text-decoration: none;
