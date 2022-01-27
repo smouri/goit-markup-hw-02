@@ -102,7 +102,7 @@ ul li a {
   top: 430px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -127,7 +127,6 @@ ul li a {
 }
 .peculiarities-list .paragraphly {
   color: var(--secondary-text-color);
-  font-weight: 400px;
   font-size: 14px;
   line-height: 1.7;
 }
