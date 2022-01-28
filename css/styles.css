@@ -145,6 +145,7 @@ ul li a {
   font-weight: 500px;
   line-height: 1.62;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
