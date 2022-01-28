@@ -53,7 +53,7 @@ ul li a {
   color: var(--main-text-color);
   text-decoration: none;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -70,7 +70,7 @@ ul li a {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -102,7 +102,7 @@ ul li a {
   top: 430px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -121,7 +121,7 @@ ul li a {
 }
 .peculiarities-list .title {
   color: var(--main-text-color);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -131,10 +131,20 @@ ul li a {
   line-height: 1.7;
 }
 .section-title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.section-team .member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section-team .profesion {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
 }
 .section-portfolio .title {
   display: none;
@@ -143,7 +153,7 @@ ul li a {
   background-color: var(--btn-bg-color);
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.62;
   border-radius: 4px;
   cursor: pointer;
@@ -156,7 +166,7 @@ ul li a {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-list .project-title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
