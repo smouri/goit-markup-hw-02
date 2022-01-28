@@ -124,6 +124,7 @@ ul li a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .peculiarities-list .paragraphly {
   color: var(--secondary-text-color);
